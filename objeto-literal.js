@@ -2,7 +2,7 @@ const user = {
     nome: 'Aurélio',
     email: 'aurelio@example.com',
     nascimento: '01/01/2000',
-    role: 'admin    ',
+    role: 'admin',
     ativo: true,
     
     exibirInfos: function() {
