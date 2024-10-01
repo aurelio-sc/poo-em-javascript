@@ -12,10 +12,10 @@ export default class User {
     }
 }
 
-// const newUser = new User('Aurélio', 'aurelio@example.com', '01/01/2000');
-// console.log(newUser);
-// console.log(newUser.exibirInfos());
+const newUser = new User('Aurélio', 'aurelio@example.com', '01/01/2000');
+console.log(newUser);
+console.log(newUser.exibirInfos());
 
-// // Classes são abstrações ("açúcar sintático") de protótipos.
-// // Observe como User é o protótipo de newUser.
-// console.log(User.prototype.isPrototypeOf(newUser));
+// Classes são abstrações ("açúcar sintático") de protótipos.
+// Observe como User é o protótipo de newUser.
+console.log(User.prototype.isPrototypeOf(newUser));

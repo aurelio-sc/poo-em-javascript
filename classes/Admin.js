@@ -1,6 +1,6 @@
 import User from './User.js';
 
-class Admin extends User {
+export default class Admin extends User {
     // Se não for declarado um novo construtor, o construtor padrão é o construtor da superclasse.
     constructor(nome, email, nascimento, role = 'admin', ativo = true, podeCriarCurso = true) {
         // O super traz as propriedades e métodos da classe pai (superclasse).
